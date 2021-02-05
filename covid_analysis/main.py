@@ -6,8 +6,8 @@ For each exercise, the program queries the data from the connected database
 and plots the results for the user.
 '''
 
-import covid_analysis.plot_data as plot_data
+import plot_data as plot_data
 
 plot_data.plot_exercise_1()
-# plot_data.plot_exercise_2()
-# plot_data.plot_exercise_3()
+plot_data.plot_exercise_2()
+plot_data.plot_exercise_3()

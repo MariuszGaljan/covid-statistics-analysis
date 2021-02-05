@@ -5,8 +5,8 @@
 import pandas as pd
 from sqlalchemy import func, select
 
-from covid_analysis.database.models import Continent, Country, DailyStatistic
-from covid_analysis.database import db
+from database.models import Continent, Country, DailyStatistic
+from database import db
 
 
 data = pd.DataFrame(columns=['continent', 'max_cases'])

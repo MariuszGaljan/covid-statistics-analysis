@@ -13,8 +13,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import extract
 
-from covid_analysis.database.csv_data_loader import load_covid_data
-from covid_analysis.database.models import Base, Continent, Country, DailyStatistic
+from database.csv_data_loader import load_covid_data
+from database.models import Base, Continent, Country, DailyStatistic
 
 
 DATABASE_URI = 'postgresql://postgres:password@localhost:5432/covid_db'

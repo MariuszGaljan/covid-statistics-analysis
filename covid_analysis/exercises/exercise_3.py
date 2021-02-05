@@ -36,7 +36,7 @@ I tak dla każdego kraju).
 '''
 
 from enum import IntEnum
-from covid_analysis.database import db
+from database import db
 
 
 march_means = []

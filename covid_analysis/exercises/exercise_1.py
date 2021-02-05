@@ -3,11 +3,11 @@
 # Znaleźć top 10 krajów z najmniejszą liczbą zachorowań w Afryce na koniec miesiąca Maj 2020.
 
 from datetime import datetime
+
 import pandas as pd
 
-from covid_analysis.database import db
-from covid_analysis.database.models import DailyStatistic
-
+from database import db
+from database.models import DailyStatistic
 
 data = pd.DataFrame(columns=['country_name', 'total_cases'])
 

@@ -6,7 +6,7 @@ This file contains functions used to represent each tasks results as plots.
 import pandas as pd
 import plotly.express as px
 
-from covid_analysis.exercises import exercise_1, exercise_2, exercise_3
+from exercises import exercise_1, exercise_2, exercise_3
 
 def main():
     '''Used mainly for testing if needed'''
