@@ -1,6 +1,9 @@
-# Zadanie 2
-#
-# Przygotować mapę, w której kluczem jest nazwa kontynentu a wartość to kraj z największą liczbą zachorowań
+'''
+Task 2:
+Create a map, 
+where the key is a continent's name and the value is a country with highest number of total cases.
+'''
+
 
 import pandas as pd
 from sqlalchemy import func, select

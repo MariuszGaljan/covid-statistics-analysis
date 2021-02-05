@@ -1,6 +1,8 @@
-# Zadanie 1
-#
-# Znaleźć top 10 krajów z najmniejszą liczbą zachorowań w Afryce na koniec miesiąca Maj 2020.
+'''
+Task 1:
+Find top 10 countries with the smallest number of total cases at thte end of May 2020.
+'''
+
 
 from datetime import datetime
 

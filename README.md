@@ -2,7 +2,26 @@
 My analysis of COVID-19 spread data.
 
 This program runs an analysis of the COVID-19 spread data in countries all aroud the world.
+
+# Tasks
 We have 3 exercises, each described in detail in exercises/exercise_X.py, where X is the number of the exercise.
+
+### Task 1
+
+Find top 10 countries with the smallest number of total cases at thte end of May 2020.
+
+### Task 2
+
+Create a map, where the key is a continent's name and the value is a country with highest number of total cases.
+
+### Task 3
+
+1. Calculate a mean monthly range of daily new cases per million citizens for countries of Africa.
+2. Group the countries into 3 risk categories (Low, Medium, High) based on the mean range.
+3. Show all the countries which lowered their risk status from the beginning of April to the end of October.
+
+Days with missing data are treated as 0 new cases.
+
 
 For each exercise, the program queries the data from the **connected database**
 and plots the results for the user.

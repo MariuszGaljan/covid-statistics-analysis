@@ -1,38 +1,31 @@
 '''
-Zadanie 4
+Task 3:
 
-Wyznaczyć średni miesięczny przedział dziennych zachorowań na milion mieszkańców
-oraz pogrupować państwa na trzy kategorie (low, medium, high)  wg w.w. wymienionego przedziału,
-następnie wyświetlić wszystkie państwa, które polepszyły swoją sytuację
-od początku kwietnia do końca października.
+1. Calculate a mean monthly range of daily new cases per million citizens for countries of Africa.
+2. Group the countries into 3 risk categories (Low, Medium, High) based on the mean range.
+3. Show all the countries which lowered their risk status from the beginning of April to the end of October.
 
-Przez polepszenie należy rozumieć „awans” do grupy o mniejszej średniej miesięcznej
-liczbie zachorowań na milion mieszkańców
-
-**Afryka**
-
-Dni, w których brak danych nt. nowych zakażeń, są traktowane jako 0 nowych zakazeń
+Days with missing data are treated as 0 new cases.
 
 
-Algorytm:
+Algorithm:
 
-1. Dla każdego kraju średnia miesięczna liczba nowych zachorowań
-(obliczamy średnią liczbę nowych zachorowań dla miesiąca końcowego i początkowego).
-I tak dla każdego kraju).
+1. For each country calculate mean number of new cases for the first and the last month
 
-średnia liczba nowych zachorowań na początku kwietnia (czyli średnia z marca)
-średnia liczba nowych zachorowań na końcu października (czyli średnia z października)
+Mean number of new cases at the beginning of April will be treated as mean from March.
+Mean number of new cases at the end of October will be treated as mean from October.
 
-2. Przedziały to (dla wartości średnich z danego miesiąca dla wszystkich krajów):
-	- low = [min, (max - min)/3],
+2. Categories are created as follows (for lists of average means from all countries 
+    (one for April, and one for October):
+    - low = [min, (max - min)/3],
 	- medium = [(max - min)/3, 2*(max - min)/3],
 	- high = [2*(max - min)/3, max]
 
-3. Zakwalifikować każde państwo na podstawie średniej liczby nowych zachorowań na początku kwietnia (czyli średnia z marca)
+3. Categorize each country based on their mean new cases per million at the beginning of April.
 
-4. Zakwalifikować każde państwo na podstawie średniej liczby nowych zachorowań na końcu października (czyli średnia z października)
+4. Categorize each country based on their mean new cases per million at the end of October.
 
-5. Znaleźć państwa, w których kategoria zmieniła się na lepszą
+5. Find countries with a lower risk status 
 '''
 
 from enum import IntEnum
