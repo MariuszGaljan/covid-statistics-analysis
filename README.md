@@ -34,13 +34,13 @@ However, I also included still images of the plot below.
 # Plots
 
 ## Task 1
-![Plot 1](/saved_results/Images/Exercise 1 Result.png)
+![Plot 1](https://github.com/MariuszGaljan/covid-statistics-analysis/blob/f49338cd2bd74e17d9c5189e50319a428230be56/saved_results/Images/Exercise%201%20Result.png)
 
 ## Task 2
-![Plot 2](/saved_results/Images/Exercise 2.png)
+![Plot 2](https://github.com/MariuszGaljan/covid-statistics-analysis/blob/f49338cd2bd74e17d9c5189e50319a428230be56/saved_results/Images/Exercise%202.png)
 
 ## Task 3
-![Plot 3](/saved_results/Images/Exercise 3.png)
+![Plot 3](https://github.com/MariuszGaljan/covid-statistics-analysis/blob/f49338cd2bd74e17d9c5189e50319a428230be56/saved_results/Images/Exercise%203.png)
 
 
 # Additional notes
