@@ -26,12 +26,10 @@ Days with missing data are treated as 0 new cases.
 For each exercise, the program queries the data from the **connected Postgres database**
 and plots the results for the user.
 
-Each plot is interactive and viewed in a website. I saved all the websites with plots in the **saved_results** folder, so you can open them yourself and check them out without running the code if you'd like.
-
-However, I also included still images of the plot below.
+Each plot is interactive and viewed in a website. To see the results, you can scroll below for the screenshots or download the files and open the plots' websites to make them interactive. I saved all the websites with plots in the **saved_results** folder.
 
 
-# Plots
+# Plot screenshots
 
 ## Task 1
 ![Plot 1](https://github.com/MariuszGaljan/covid-statistics-analysis/blob/f49338cd2bd74e17d9c5189e50319a428230be56/saved_results/Images/Exercise%201%20Result.png)
