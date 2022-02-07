@@ -23,9 +23,26 @@ Create a map, where the key is a continent's name and the value is a country wit
 Days with missing data are treated as 0 new cases.
 
 
-For each exercise, the program queries the data from the **connected database**
+For each exercise, the program queries the data from the **connected Postgres database**
 and plots the results for the user.
 
 Each plot is interactive and viewed in a website. I saved all the websites with plots in the **saved_results** folder, so you can open them yourself and check them out without running the code if you'd like.
+
+However, I also included still images of the plot below.
+
+
+# Plots
+
+## Task 1
+![Plot 1](/saved_results/Images/Exercise 1 Result.png)
+
+## Task 2
+![Plot 2](/saved_results/Images/Exercise 2.png)
+
+## Task 3
+![Plot 3](/saved_results/Images/Exercise 3.png)
+
+
+# Additional notes
 
 Although it's not a good practice to include data in the repository, I included a PostgreSQL **database backup file** in case you'd like to try it out yourself (though the application only requires a connection to a db. It will fill the rest from the CSV if needed).
